@@ -12,11 +12,107 @@
       <img src="./assets/bowtie-cat.png" alt="Profile image of cat wearing a bow tie." />
     </header>
     <main>
-      <!-- Student code goes here -->
+      <section class="card" id="questions-section">
+        <h2>QUESTIONS</h2>
+        <ol>
+          <li>In the Git notes section below, where is the best place for step 3 of the "Create a new branch, make changes, then stage and commit" section?</li>
+          <li>What's the difference between committing and pushing?</li>
+        </ol>
+      </section>
+
+
+      <section class="card" id="html-section">
+        <h2>HTML</h2>
+        <ul>
+          <li class="reminder">R: You can put a sitemap in the footer</li>
+          <li>The 'alt' attribute on an img element can be used to describe the image AND its function</li>
+          <li class="reminder">R: If you want the user to see it, make sure it's in the <code>&lt;body&gt;</code> tag</li>
+        </ul>
+      </section>
+
+
+      <section class="card" id="css-section">
+        <h2>CSS</h2>
+        <ul>
+          <li>Enter your CSS notes here</li>
+        </ul>
+      </section>
+
+
+      <section class="card" id="git-section">
+        <h2>Git</h2>
+        <ul>
+          <li>VS Code will make your changes disappear when switching back to the main branch. Bring your computer up to date by entering <code>git pull origin main</code></li>
+          <li>The steps to creating a new repository and setting it up with VS Code:</li>
+          <ol>
+            <li>Create the repository on GitHub</li>
+            <li>Clone it to your computer through CMD (<code>git clone</code>) and choose its resting place on your hard drive</li>
+            <li>Ensure your CMD is working within the directory where you just cloned the repo</li>
+            <li>Use the command <code>code .</code></li>
+          </ol>
+          <li>Create a new branch, make changes, then stage and commit:</li>
+          <ol>
+            <li>Open CMD</li>
+            <li>Use <code>git status</code> to make sure you're on the main branch.</li>
+            <ul>
+              <li>If not, switch to main branch: <code>git checkout main</code></li>
+            </ul>
+            <li>Pull the remote main to the local machine: <code>git pull origin main</code></li>
+            <ul>
+              <li>This ensures you will be branching off of the most recent version of the main branch.</li>
+            </ul>
+            <li>Create a new branch: <code>git checkout -b feature/add-css</code></li>
+            <ul>
+              <li>Use the <code>feature/</code> and <code>dev/</code> conventions to notate whether you're working on one new feature or several new features.</li>
+            </ul>
+            <li>Open VS Code in your new branch: <code>code .</code></li>
+            <li>Make and save your changes.</li>
+            <li>Use <code>git status</code> to check which files have been modified.</li>
+            <li>Stage your changes in CMD using the <code>git add</code> command and selecting which files you want to stage.</li>
+            <ul>
+              <li>Use the <code>-A</code> option to stage all changes.</li>
+            </ul>
+            <li>Commit your staged changes with <code>git commit -m "Commit message here"</code></li>
+            <ul>
+              <li>This gets the files ready to be pushed (or, 'saved' but in the cloud) to the branch.</li>
+              <li>The <code>-m</code> option will create a message to be included with this new round of changes</li>
+              <ul>
+                <li>Make sure the message is clear, descriptive, and concise about what changes you made <i>(e.g. "Fixed ID bug with header")</i></li>
+              </ul>
+            </ul>
+            <li>Once any commits are finished, push your changes to the remote repo: <code>git push origin [feature/your-branch]</code></li>
+          </ol>
+          <li>Merge your branch with the main branch:</li>
+          <ol>
+            <li>After making any pushes, check your repo in GitHub for a pull request.</li>
+            <li>Give the pull request a descriptive title</li>
+            <li>In the body of the pull request, add a description. Here are some tips from the course:</li>
+            <ul>
+              <li>"Add instructions for team members that will review the PR about what changes were made, how the feature is supposed to function, and how to start the application so the feature can be tested."</li>
+            </ul>
+            <li>Once you're all done, select "Create pull request"</li>
+          </ol>
+        </ul>
+      </section>
+
+
+      <section class="card" id="javascript-section">
+        <h2>JavaScript</h2>
+        <ul>
+          <li>Enter your JavaScript notes here</li>
+        </ul>
+      </section>
+      <br />
     </main>
 
     <footer>
       <p>I can code!</p>
+      <br />
+      <h3>LEGEND:</h2>
+      <ul>
+        <li>R: marks a reminder. Not something I learned, but something to keep in mind</li>
+        <li>C: critical information I feel is extra important to remember</li>
+      </ul>
     </footer>
   </body>
 </html>
