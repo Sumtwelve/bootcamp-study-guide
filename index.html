@@ -10,22 +10,25 @@
   <body>
     <header id="header">
       <h1>Prework Study Guide</h1>
+      <h2>✨ Open the Console to See What's Happening ✨</h2>
       <img src="./assets/bowtie-cat.png" alt="Profile image of cat wearing a bow tie." />
     </header>
     <main>
       <section class="card" id="questions-section">
-        <h2>QUESTIONS</h2>
+        <h2 class="card-header">QUESTIONS / COURSE FEEDBACK</h2>
         <div class="card-content">
           <ol>
             <li>Why does the course recommend pulling the remote down to the local machine just before pushing up code? Shouldn't the local machine be up to date before any changes are made at all? Wouldn't that reset any changes I've made back to how things were when I branched off the main?</li>
+            <li>If I'm working on a branch, then head to bed and resume work the next day, should I <code>git pull origin main</code> before I do anything or will that erase all my work?</li>
             <li>What's the difference between committing and pushing?</li>
+            <li>The DEEP DIVE in section 3.3.4 of the prework has some misleading information. It states that the value <code>On</code> is falsy, but I think it is supposed to say <code>0n</code>, as in having a zero instead of the letter O there.</li>
           </ol>
         </div>
       </section>
 
 
       <section class="card" id="html-section">
-        <h2>HTML</h2>
+        <h2 class="card-header">HTML</h2>
         <div class="card-content">
           <ul>
             <li class="reminder">R: You can put a sitemap in the footer</li>
@@ -37,7 +40,7 @@
 
 
       <section class="card" id="css-section">
-        <h2>CSS</h2>
+        <h2 class="card-header">CSS</h2>
         <div class="card-content">
           <ul>
             <li>Add CSS notes here when you've learned something</li>
@@ -47,7 +50,7 @@
 
 
       <section class="card" id="git-section">
-        <h2>Git</h2>
+        <h2 class="card-header">Git</h2>
         <div class="card-content">
           <ul>
             <li>VS Code will make your changes disappear when switching back to the main branch. Bring your computer up to date by entering <code>git pull origin main</code></li>
@@ -106,10 +109,11 @@
 
 
       <section class="card" id="javascript-section">
-        <h2>JavaScript</h2>
+        <h2 class="card-header">JavaScript</h2>
         <div class="card-content">
           <ul>
-            <li>Enter your JavaScript notes here</li>
+            <li>Logging an undefined variable to the console will print <code>undefined</code></li>
+            <li>Falsy values: 0, -0, 0n, "", null, undefined, NaN. All other values are truthy.</li>
           </ul>
         </div>
       </section>
@@ -125,5 +129,6 @@
         <li>C: critical information I feel is extra important to remember</li>
       </ul>
     </footer>
+    <script src="./assets/script.js"></script>
   </body>
 </html>
