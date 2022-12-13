@@ -2,7 +2,7 @@
 
 ## Description
 
-This study guide was created to practice web development and store my notes in the cloud, rather than leave all my notes in a physical notebook, which I might lose. While making it I became more comfortable with HTML and the Git flow, and I also learned a lot about some JavaScript basics. Created for the 2022-2023 Coding Bootcamp with the University of Utah.
+This study guide was created to practice web development and store my notes in the cloud, rather than leave all my notes in a physical notebook, which I might lose. While making it I became more comfortable with HTML and the Git flow, and I also learned a lot about some JavaScript basics. Created for the 2022-2023 Coding Bootcamp with the University of Utah. Deployed at https://sumtwelve.github.io/bootcamp-study-guide/
 
 ## Table of Contents (Optional)
 
